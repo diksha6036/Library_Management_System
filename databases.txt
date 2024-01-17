@@ -1,0 +1,24 @@
+Database Name: library
+Tables Name:login,books
+
+mysql> desc books;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| Bname  | varchar(50) | YES  |     | NULL    |       |
+| Bid    | varchar(50) | YES  |     | NULL    |       |
+| Price  | int         | YES  |     | NULL    |       |
+| Author | varchar(50) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+
+mysql> desc login;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| username | varchar(50) | YES  |     | NULL    |       |
+| password | varchar(50) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+ 
